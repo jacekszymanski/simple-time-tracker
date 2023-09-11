@@ -22,12 +22,6 @@ input[type=submit]:hover,
     color: #555;
 }
 
-#button-remove-all,
-#button-remove-all,
-#button-remove {
-    color: #a90329;
-}
-
 input[type=text] {
     background-color: #fcfff4;
 }
@@ -48,14 +42,6 @@ a.update:hover {
     color: #006e2e;
 }
 
-a.remove:hover {
-    color: #a90329;
-}
-
-p.remove-confirm {
-    color: #a90329;
-}
-
 p.remove-confirm strong {
     color: #333;
 }
@@ -71,4 +57,19 @@ p.remove-confirm strong {
 
 #footer a:hover {
     color: #333;
+}
+
+/* --- red, perhaps won't be affected by the theme --- */
+a.remove:hover {
+    color: #a90329;
+}
+
+p.remove-confirm {
+    color: #a90329;
+}
+
+#button-remove-all,
+#button-remove-all,
+#button-remove {
+    color: #a90329;
 }
