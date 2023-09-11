@@ -1,0 +1,74 @@
+body {
+    background: #fff;
+}
+
+a {
+    color: #555;
+}
+
+#bar {
+    background: #f6f6f6;
+}
+
+#bar a.button {
+    color: #444;
+    background-color: #fff;
+
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+#bar .button:hover {
+    color: #555;
+}
+
+#button-remove-all,
+#button-remove-all,
+#button-remove {
+    color: #a90329;
+}
+
+input[type=text] {
+    background-color: #fcfff4;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+}
+
+.item {
+    background: #fff;
+}
+
+p.running {
+    background-color: #eaffd6;
+}
+
+a.update:hover {
+    color: #006e2e;
+}
+
+a.remove:hover {
+    color: #a90329;
+}
+
+p.remove-confirm {
+    color: #a90329;
+}
+
+p.remove-confirm strong {
+    color: #333;
+}
+
+#footer {
+    background: #f6f6f6;
+    color: #bbb;
+}
+
+#footer a {
+    color: #bbb;
+}
+
+#footer a:hover {
+    color: #333;
+}

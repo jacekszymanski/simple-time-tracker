@@ -9,13 +9,11 @@ body {
     font-size: 11px;
     padding: 0;
     margin: 0 auto;
-    background: #fff;
     overflow: scroll;
 }
 
 a {
     text-decoration: none;
-    color: #555;
 }
 
 /* top bar
@@ -24,7 +22,6 @@ a {
 #bar {
     padding: 0.8em 1em;
     overflow: auto;
-    background: #f6f6f6;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -70,14 +67,12 @@ a {
 input[type=button],
 input[type=submit],
 #bar a.button {
-    color: #444;
     text-decoration: none;
     display: block;
     padding: 0 10px;
     font-weight: bold;
     line-height: 28px;
     border-radius: 3px;
-    background-color: #fff;
     border-radius: 2px;
     float: left;
     border: 1px solid #ddd;
@@ -89,12 +84,6 @@ input[type=submit],
     top: 1px;
 }
 
-input[type=button]:hover,
-input[type=submit]:hover,
-#bar .button:hover {
-    color: #555;
-}
-
 p.buttons {
     padding: 1em 2em!important;
     overflow: hidden;
@@ -104,18 +93,11 @@ p.buttons {
     float: right!important;
 }
 
-#button-remove-all,
-#button-remove-all,
-#button-remove {
-    color: #a90329;
-}
-
 /* forms and inputs
 ----------------------------------------------------------------------------- */
 
 input[type=text] {
     border: solid 1px #D6D6BE;
-    background-color: #fcfff4;
     padding: 3px 5px;
     width: 96%;
     font-size: 16px;
@@ -126,7 +108,6 @@ input[type=text] {
 
 input[type=text]:focus {
     border: solid 1px #fff286;
-    background-color: #fff;
 }
 
 .form {
@@ -168,7 +149,6 @@ input[type=text]:focus {
     border-bottom: solid 1px #eee;
     padding: 14px 12px!important;
     position: relative;
-    background: #fff;
     display: block;
     overflow: hidden;
 }
@@ -197,10 +177,6 @@ input[type=text]:focus {
     font-size: 17px;
 }
 
-p.running {
-    background-color: #eaffd6;
-}
-
 /* other elements
 ----------------------------------------------------------------------------- */
 
@@ -210,26 +186,13 @@ p.notask label {
     width: 100%;
 }
 
-a.update:hover {
-    color: #006e2e;
-}
-
-a.remove:hover {
-    color: #a90329;
-}
-
 p.remove-confirm {
-    color: #a90329;
     font-weight: bold;
     line-height: 1.2em;
     margin: 0;
     padding: 1em 0!important;
     font-style: italic;
     font-size: 13px;
-}
-
-p.remove-confirm strong {
-    color: #333;
 }
 
 #form-create {
@@ -240,18 +203,8 @@ p.remove-confirm strong {
 ----------------------------------------------------------------------------- */
 
 #footer {
-    background: #f6f6f6;
-    color: #bbb;
     margin: 0;
     padding: 5px;
-}
-
-#footer a {
-    color: #bbb;
-}
-
-#footer a:hover {
-    color: #333;
 }
 
 #footer span#total-time {
