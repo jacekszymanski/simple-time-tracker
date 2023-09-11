@@ -1,6 +1,6 @@
 {
-  "name": "simple-time-tracker",
-  "productName": "simple-time-tracker",
+  "name": "simple-time-track",
+  "productName": "Simple Time Track",
   "version": "1.0.0",
   "description": "Simple time tracker",
   "main": "src/index.js",
