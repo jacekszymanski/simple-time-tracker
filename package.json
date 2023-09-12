@@ -21,7 +21,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "icon": "src/img/simple-timer.icns"
+        "icon": "src/img/icons/simple-timer"
       },
       "makers": [
         {
