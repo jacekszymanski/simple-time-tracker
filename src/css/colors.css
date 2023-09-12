@@ -1,3 +1,4 @@
+@media (prefers-color-scheme: light) {
 body {
     background: #fff;
 }
@@ -57,6 +58,72 @@ p.remove-confirm strong {
 
 #footer a:hover {
     color: #333;
+}
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: #fff;
+  }
+
+  a {
+    color: #aaa;
+  }
+
+  #bar {
+    background: #222;
+  }
+
+  #bar a.button {
+    color: #ddd;
+    background-color: #222;
+  }
+
+  input[type=button]:hover,
+  input[type=submit]:hover,
+  #bar .button:hover {
+    color: #aaa;
+  }
+
+  input[type=text] {
+    background-color: #444;
+  }
+
+  input[type=text]:focus {
+    background-color: #555;
+  }
+
+  .item {
+    background: #222;
+    color: #ddd;
+  }
+
+  p.running {
+    background-color: #116611;
+  }
+
+  a.update:hover {
+    color: #00cc00;
+  }
+
+  p.remove-confirm strong {
+    color: #ddd;
+  }
+
+  #footer {
+    background: #222;
+    color: #aaa;
+  }
+
+  #footer a {
+    color: #aaa;
+  }
+
+  #footer a:hover {
+    color: #ddd;
+  }
 }
 
 /* --- red, perhaps won't be affected by the theme --- */
