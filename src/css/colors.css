@@ -1,64 +1,64 @@
 @media (prefers-color-scheme: light) {
-body {
+  body {
     background: #fff;
-}
+  }
 
-a {
+  a {
     color: #555;
-}
+  }
 
-#bar {
+  #bar {
     background: #f6f6f6;
-}
+  }
 
-#bar a.button {
+  #bar a.button {
     color: #444;
     background-color: #fff;
 
-}
+  }
 
-input[type=button]:hover,
-input[type=submit]:hover,
-#bar .button:hover {
+  input[type=button]:hover,
+  input[type=submit]:hover,
+  #bar .button:hover {
     color: #555;
-}
+  }
 
-input[type=text] {
+  input[type=text] {
     background-color: #fcfff4;
-}
+  }
 
-input[type=text]:focus {
+  input[type=text]:focus {
     background-color: #fff;
-}
+  }
 
-.item {
+  .item {
     background: #fff;
-}
+  }
 
-p.running {
+  p.running {
     background-color: #eaffd6;
-}
+  }
 
-a.update:hover {
+  a.update:hover {
     color: #006e2e;
-}
+  }
 
-p.remove-confirm strong {
+  p.remove-confirm strong {
     color: #333;
-}
+  }
 
-#footer {
+  #footer {
     background: #f6f6f6;
     color: #bbb;
-}
+  }
 
-#footer a {
+  #footer a {
     color: #bbb;
-}
+  }
 
-#footer a:hover {
+  #footer a:hover {
     color: #333;
-}
+  }
 
 }
 
