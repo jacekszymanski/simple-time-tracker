@@ -162,12 +162,8 @@ input[type=text]:focus {
     top: 0;
     right: 0;
     bottom: 0;
-    background: url(../img/play.png) right center no-repeat;
+    background: url("../img/play.png") right center no-repeat;
     background-origin: content-box;
-}
-
-.item a.running {
-    background-image: url(../img/pause.png);
 }
 
 .item span.timer {

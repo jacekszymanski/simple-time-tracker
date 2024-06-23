@@ -17,7 +17,7 @@ const createWindow = () => {
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
-  mainWindow.resizable = false;
+//  mainWindow.resizable = false;
 };
 
 // This method will be called when Electron has finished

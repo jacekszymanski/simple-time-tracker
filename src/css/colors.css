@@ -60,6 +60,16 @@ p.remove-confirm strong {
     color: #333;
 }
 
+/* FIXME make it change image really */
+.item a.running {
+    background-image: url(../img/pause.png);
+}
+
+.item a.power {
+    background-image: url(../img/play.png);
+}
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -124,6 +134,15 @@ p.remove-confirm strong {
   #footer a:hover {
     color: #ddd;
   }
+
+.item a.running {
+    background-image: url(../img/pause_dark.png);
+}
+
+.item a.power {
+    background-image: url(../img/play_dark.png);
+}
+
 }
 
 /* --- red, perhaps won't be affected by the theme --- */
